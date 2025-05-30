@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/polaris/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/polaris/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/polaris/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
-    vendor/xiaomi/polaris/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/polaris/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/xiaomi/polaris/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/polaris/proprietary/vendor/etc/init/vendor.qti.secure_element@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.0-service.rc \
@@ -212,18 +211,14 @@ PRODUCT_PACKAGES += \
     libsymphonypower \
     libtonemapalgo \
     libvidhance \
-    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     android.hardware.secure_element@1.0-impl \
     fingerprint.fpc.sdm845 \
     fingerprint.goodix.sdm845 \
     vendor.qti.gnss@3.0-impl \
-    vendor.qti.hardware.bluetooth_sar@1.0-impl \
-    vendor.qti.hardware.btconfigstore@1.0-impl \
     libaoa \
     libbatching \
-    libbtnv \
     libcacertclient \
     libdataitems \
     libgdtap \
@@ -260,14 +255,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@2.1 \
     vendor.qti.gnss@3.0-service \
     vendor.qti.gnss@3.0 \
-    vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.cacert@1.0 \
     dirac_resource \
     libSuperSensor_skel \
     libarcsoft_dualcam_refocus_skel \
     android.hardware.gnss@2.0-service-qti.xml \
     vendor.qti.gnss@3.0-service.xml \
-    android.hardware.bluetooth@1.0-service-qti \
     android.hardware.gnss@2.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     vendor.qti.secure_element@1.0-service \
